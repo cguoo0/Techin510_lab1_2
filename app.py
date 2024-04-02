@@ -1,21 +1,20 @@
 import streamlit as st
-from annotated_text import annotated_text
 
 col1, col2 = st.columns([0.6, 0.4])
 
 with col1:
-   ('\n') 
-   ('\n') 
+   st.markdown(" ")
+   st.markdown(" ")
    st.header(
             "😊Hi, my name is :orange[Chenxi]. I am a :blue[UX designer] based in :green[Seattle]☔️"
             )
-   ('\n') 
+   st.markdown(" ")
    with open("Chenxi Guo_Resume_UX designer.png", "rb") as file:
     btn = st.download_button(
             label="Download My Resume",
             data=file,
-            file_name="/Users/guochenxi/Desktop/Chenxi Guo_Resume_UX designer.png",
-            mime="Chenxi Guo_Resume_UX designer.png"
+            file_name="Chenxi Guo_Resume_UX designer.png",
+            mime="Chenxi Guo_image/png"
           )
 
 with col2:
@@ -27,17 +26,17 @@ st.subheader("Education")
 
 col1, col2 = st.columns([0.2, 0.8])
 with col1:
-   ('\n')
+   st.markdown(" ")
    st.image("/Users/guochenxi/Desktop/510/Techin510_lab1_2/University_of_Washington_Block_W_logo_RGB_brand_colors.svg")
 with col2:
    st.markdown("     **University of Washington**")
    st.write("     Program: Master of Science in Technology Innovation")
    st.write("     2023-2025")
-   ('\n')
-   ('\n')
+   st.markdown(" ")
+   st.markdown(" ")
 col1, col2 = st.columns([0.2, 0.8])
 with col1:
-   ('\n')
+   st.markdown(" ")
    st.image("/Users/guochenxi/Desktop/510/Techin510_lab1_2/2560px-Pratt_Institute_Logo.svg.png")
 with col2:
    st.markdown("     **Pratt Institute**")
@@ -70,7 +69,7 @@ st.markdown('''
 </style>
 ''', unsafe_allow_html=True)
 
-('\n')
+st.markdown(" ")
 
 st.subheader("Product Designer")
 
