@@ -18,7 +18,7 @@ with col1:
           )
 
 with col2:
-   st.image("/Users/guochenxi/Desktop/510/Techin510_lab1_2/Chenxi_image.JPG")
+   st.image("Chenxi_image.JPG")
 
 st.divider()
 
@@ -27,7 +27,7 @@ st.subheader("Education")
 col1, col2 = st.columns([0.2, 0.8])
 with col1:
    st.markdown(" ")
-   st.image("/Users/guochenxi/Desktop/510/Techin510_lab1_2/University_of_Washington_Block_W_logo_RGB_brand_colors.svg")
+   st.image("University_of_Washington_Block_W_logo_RGB_brand_colors.svg")
 with col2:
    st.markdown("     **University of Washington**")
    st.write("     Program: Master of Science in Technology Innovation")
@@ -37,7 +37,7 @@ with col2:
 col1, col2 = st.columns([0.2, 0.8])
 with col1:
    st.markdown(" ")
-   st.image("/Users/guochenxi/Desktop/510/Techin510_lab1_2/2560px-Pratt_Institute_Logo.svg.png")
+   st.image("2560px-Pratt_Institute_Logo.svg.png")
 with col2:
    st.markdown("     **Pratt Institute**")
    st.write("     Program: Industrial Design")
